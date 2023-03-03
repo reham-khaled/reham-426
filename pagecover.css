@@ -1,0 +1,315 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+
+}
+body{
+  /*  height: 3000px;*/
+    width:100%;
+  
+}
+
+.sec1{
+
+  width: 100%;
+  height:50em;
+  margin-top:0;
+  padding-top:0;
+  background-image:url(blue_bg.png);
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size:100%;
+  background-position-y: top;
+  overflow: visible;
+
+
+
+}
+.navbar{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 0;
+    align-items:center;
+    position: sticky;
+    position: -webkit-sticky;
+
+ 
+}
+.nav.one{
+    display: flex;
+}
+.nav.one li{
+
+    list-style-type: none;
+    display:inline-block;
+    justify-content: space-between;
+    margin: 20px;
+    padding-left: 10px;
+    padding-bottom: 8px;
+    font-size: larger;
+    color:rgb(133, 123, 123);
+
+}
+
+
+
+.nav.one li:hover{
+ border-bottom: 2px solid blueviolet;
+
+
+}
+.nav.two h4{ 
+    margin-right: 20px;
+    background-image: url(login_button_bg.png);
+    background-position:center ;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    padding: 8px 15px;
+    border-radius: 16px;
+
+}
+
+.sec1-second{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+
+    margin-right: 600px;    
+
+
+}
+.header1 h1{
+  
+margin-top: 200px;
+ font-weight: bold;
+ font-size:50px;
+ font-family:'Times New Roman', Times, serif ;
+}
+span{
+    color: blueviolet;
+}
+.header2{
+    position: relative;
+    margin-right:0;
+}
+
+.header2-img1{
+    position: absolute;
+
+}
+.header2-img2{
+    position: absolute;
+    top: 40px;
+    left: 170px;
+    z-index: 2;
+
+}
+.header2-img3{
+    position: absolute;
+    top: 380px;
+    left: 50px;
+    z-index: 3;
+}
+.waves{
+    position: absolute;
+    top: 600px;
+    right: 230px;
+    width: 100%;
+    height: 350px;
+    transform: rotate(-7deg);
+    z-index: 5;
+    
+}
+section.sec2{
+    height: 600px;
+    display: flex;
+    background-image: url(second_section_.png);
+    background-repeat: no-repeat;
+    background-position:right 80px top 200px ;
+    background-size:80%;
+    position:relative;}
+
+  .sec2-img1{
+    position: absolute;
+    top:19em ;
+    left:8em;
+  }  
+.sec2-img2{
+    position: absolute;
+    top:29em ;
+    left:40em ;
+}
+.sec2-img3{
+    position: absolute;
+    top:39em ;
+    left:75em;
+}
+.sec2-img4{
+    position: absolute;
+    top:45em ;
+    left:10em ;
+    
+}
+.img4-t{
+    
+   position: absolute;
+   top:8em;
+   left:7em;
+  color: white;
+
+}
+
+
+
+.sec3{
+    position: relative;
+    height: 1000px;
+    width: 100%;
+    margin-bottom: 100px; 
+
+}
+
+.sec3-img5{
+position: absolute;
+top: 40em;
+left:20em;
+
+}
+
+
+.sec3-div1{
+position: absolute;
+top: 35em;
+left: 35em;
+align-items: center;
+}
+.sec3-div1 h2{
+    position: absolute;
+    left:50px ;
+    margin-top:-15px; 
+}
+.sec3-p1{
+    position: absolute;
+    left: 50px;
+    margin-top: 20px;
+}
+.sec3-p2{
+    position: absolute;
+    left: 50px;
+    margin-top: 40px;
+}
+.sec3-p3{
+    position: absolute;
+    left: 50px;
+    margin-top: 60px;
+}
+
+.sec3-img7{
+    position: absolute;
+    top: 42em;
+    left: 60em;
+
+}
+
+    
+
+.fa-chevron-right{
+    position: absolute;
+    top:45em;
+    left:58em;
+    size:25em;
+    background-color: azure;
+}
+
+.fa-chevron-left{
+    position: absolute;
+    top:45em ;
+    left:35em ;
+}
+
+
+
+
+.sec4-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    position: relative;  
+    width:100%; 
+    height:700px;
+    background-image: url(Group\ 1131.png);
+    /*background-position:center;*/
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:118em;
+    overflow:visible;
+    background-position-y:top;
+
+    
+   
+
+}
+.sec4-div2 img{
+    position: absolute;
+    left:43em;
+    bottom:0px ;
+    width: 45em;
+    height: 30em;
+    
+   
+}
+
+.sec4-footer{
+    display: flex;
+    position:relative;
+    padding: 0;
+    margin: 0;
+
+}
+
+.div2-footer{
+    position: absolute;
+    display: flex;
+    top: 27em;
+    left: 60px;
+}
+
+
+.div22-img{
+ margin-right: 10px;
+}
+
+.div22-footer{
+    display: flex;
+    margin-right:30px;
+    background-color: white;
+    border-radius:15px;
+    padding:10px;
+    margin-top: 20px;
+}
+
+.div222-footer{
+    position: absolute;
+    top: 35em;
+    left: 60px;
+
+}
+.div222-footer img{
+ margin-right:20px;
+
+}
+
+.div212-footer{ 
+   display: flex;
+    position: absolute;
+    top: 40em;
+    left: 45px;
+  
+}
+.div212-footer li{
+    margin-left: 20px;
+    font-size: 20px;
+    color:white;
+}
